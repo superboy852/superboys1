@@ -1,0 +1,26 @@
+.talent-show{
+  margin: 0px auto;
+  max-width: 1620px;
+  min-width: 1420px;
+  
+  .rdx-warning-disabled-bg{background-color: #F3F3F3; padding: 3px 12px;}
+  .talent-tigs{background-color: #DDDDDD;}
+  .talent-tigs2{height: 33px; line-height: 33px; background: #FFF7E7; border-radius: 16px; color: #6B3613;}
+  .talent-legend{width: 20px; height: 6px; border-radius: 6px;}
+  .talent-color{color: #6B3613;}
+  .seo-input{width: 420px; height: 42px; line-height: 42px; background: rgba(201,18,19,0.00); border: 1px solid #dd001b;border-radius: 8px;
+  .seo-input-mian{width: 360px; height: 40px; line-height: 40px; background-color: #FFFFFF; border: 0px; margin-left: 6px; padding: 0px 10px;}
+  .seo-but{width: 66px;height: 42px;background: #dd001b;border: 1px solid #dd001b; border-radius: 0px 8px 8px 0px;} }
+  /deep/.el-checkbox .el-checkbox__label{font-size: 16px;}
+  /deep/.el-checkbox__inner{width: 16px;height: 16px; border-radius: 2px; border: 1px solid #E6E7EB;}
+  /deep/.el-checkbox__inner::after{left:5px;top:2px}
+  /deep/.el-radio-button--small .el-radio-button__inner{padding: 15px 35px; font-size: $rdx-font-lg;}
+  /deep/.map-city .el-radio-button--small .el-radio-button__inner{padding: 10px 25px; font-size: $rdx-font-lg;}
+  /deep/.el-table th{background-color: #FAFAFA; color: #666666; padding: 2px 0px!important; font-size: 14px;}
+  input:focus {outline:0px;}
+  .name{font-size: 14px;}
+  .select-item { padding: 2px 10px; color: $rdx-content-color; cursor: pointer; font-size: 14px;
+  		  &:hover{color: $rdx-primary;}
+  		  &.active { color: $rdx-primary; background: #FCE5E8; border-radius: 4px; }
+  		}
+}

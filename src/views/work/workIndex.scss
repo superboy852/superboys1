@@ -1,0 +1,71 @@
+.box {
+      padding: 0px;
+	  width: 100%;
+	  overflow: hidden;
+	  .work-top{
+		  width: 100%;
+		  height: 349px;
+		  background: #FFFFFF;
+		  border-radius: 15px;
+		  padding: 20px;
+	  }
+	  .work-top-right{width: 351px;
+	  .work-line{border-right: 1px solid #F5F5F5; border-bottom: 1px solid #F5F5F5; width: 117px;}
+	  .work-line img:hover{animation: imgBig 0.3s forwards; cursor: pointer;}
+	  @keyframes imgBig {
+	    0% {transform: scale(1);}	  
+	    100% {transform: scale(1.2);}}
+	  }
+	  .work-top-banner{width: 100%; height: 322px;  background-size: cover; overflow: hidden;}
+	  .work-top-banner2{width: 100%; height: 108px; background-size: cover;  margin-top: 18px; border-radius: 6px;}
+	  .work-living{width: 100%; margin-top: 60px;}
+	  .work-living-left{width: 180px; height: 84px; background: #FAD9DD; border-radius: 4px;}
+	  .work-living-left-border{width: 168px; height: 72px; background: #F08D99; border-radius: 4px;}
+	  .work-living-left-border2{width: 156px; height: 60px;background: $rdx-primary; border-radius: 4px;}
+	  .work-living-go{background: linear-gradient(0deg,rgba(248,83,83,1.00) 0%, #c91313 100%); width: 24px; height: 24px; border-radius: 50%; right: 10px; top: 55px;}
+	  .work-living-box{width: 320px; height: 127px; background: #ffffff; border-radius: 20px; box-shadow: 0px -1px 7px 2px rgba(0,0,0,0.08); padding: 10px; margin: 0px 15px;}
+	  .work-living-topImg{
+		  width: 62px;height: 62px;border-radius: 4px;
+	  }
+	  .work-living-sl{
+		  width: 16px;height: 16px; border: 1px solid #666666;border-radius: 50%;
+	  }
+	  .work-living-icon{width: 20px;height: 20px;}
+	  .word-living-title{width: 150px;}
+	  .word-img{border: 2px solid $rdx-primary;}
+	  .work-pay{width: 16px; height: 16px; background-color: $rdx-primary; border-radius: 50%;}
+	  .work-talent{background-color: $rdx-bg-color; padding: 20px 0px 20px 4px; margin-top: 18px; min-width: 1020px; border-radius: 12px; overflow: hidden;}
+	  .work-talent-box{width: 200px; height: 260px;}
+	  .work-talent-box2{width: 416px; height: 260px; background: #FFFFFF; box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.09); border-radius: 0px 6px 6px 0px;}
+	  .talent-tag{bottom: -25px; right: 13px; width: 60px; height: 22px; background: url(../../assets/imgs/work_tag.png) no-repeat; background-size: 100% 100%; padding: 5px 0px 0px 6px;}
+	  .talent-right{width: 33px; height: 300px; background: #999999; opacity: 0.8; border-radius: 0px 12px 12px 0px; right: 0px; top: 0px;}
+	  .talent-right:hover{opacity: 1;}
+	  
+	  
+	  .work-talent-width{height: 260px;width: 200px;}
+	  .work-talent-avater{width: 40px;height: 40px;border-radius: 50%;border: 2px solid #dd001b;}
+	  .work-monitor{background-color: $rdx-bg-color; border-radius: 12px; padding: 20px 0px; margin-top: 15px;}
+	  .work-monitor-line{width: 60px; height: 4px; background: $rdx-primary; border-radius: 2px;}
+	  .work-living-tag{background: #FFF2E4; border-radius: 9px; height: 18px; line-height: 18px; padding: 0px 5px; color: #FF9018;}
+	  
+	  
+	  /deep/.el-carousel__arrow{background: linear-gradient(0deg,rgba(248,83,83,1.00) 0%, #c91313 100%); width: 24px; height: 24px;}
+	  /deep/.el-carousel__arrow--left{left: -36px; display: none;}
+	  /deep/.el-carousel__arrow--right{right: -36px; display: none;}
+	  
+	  //表格控制
+	   /deep/.el-table th{font-size: 14px;background-color: #E7ECF1!important; color: #333333; font-weight: bold; height: 52px;padding: 16px 10px;}
+	   /deep/.el-table .is-sortable .cell{top: 3px;}
+	   /deep/.el-table th > .cell{color: $rdx-content-color;}
+	   /deep/.el-table--small{font-size: 16px;}
+	   /deep/.el-table--small th{padding: 0px;}
+	  /deep/.el-table--small td{padding: 20px 0px 12px 0px!important;line-height: 34px;font-size: 16px; font-weight: bold;color: $rdx-content-color; }
+	  /deep/.el-table .el-table__body-wrapper tr:hover{cursor: pointer;}
+	  /deep/.el-table--scrollable-x .el-table__body-wrapper{overflow-x:hidden}
+	  /deep/.el-table tr:first-child th:first-child div{padding-left: 30px!important;}
+	  /deep/.el-table tr:first-child th:nth-child(2) div{padding-left: 0px!important;}
+	  /deep/.el-table .cell{padding-left: 0px!important; padding-right: 0px!important;}
+	  /deep/.el-table .el-table__row td{border-bottom: 0px!important;}
+	  .work-living-tab .work-living-ok{opacity: 0;}
+	  .work-living-tab:hover .work-living-ok{opacity: 1;}
+}

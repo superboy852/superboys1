@@ -1,0 +1,43 @@
+.living-show{
+	margin: 0px auto;
+	max-width: 1620px;
+	min-width: 1420px;
+   .living-top-left{width: 990px; min-width: 990px; height: 378px; background: #FFFFFF; box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);border-radius: 20px; padding: 40px 40px;}
+   .living-top-left .img{width: 238px; height: 298px;}
+   .living-top-left .tag{min-width: 182px; padding: 0px 6px; height: 32px; line-height: 32px; background: #FFF7E7; border-radius: 16px; color: #6B3613; text-align: center;}
+   .living-top-left .time{width: 50px; height: 19px;line-height: 19px; background: #5BD600;border-radius: 10px;text-align: center;}
+   .living-top-left .time:hover{background: #FF7611;}
+   .living-top-left .living{width: 120px; height: 36px; line-height: 36px; text-align: center; background: #FF7611; border-radius: 2px;}
+   .living:hover{background: $rdx-pink;}
+   .living-top-right{width: 606px; margin-left: 20px; height: 378px; background: #FFFFFF; box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);; border-radius: 20px; padding: 30px 35px;}
+   .living-top-right .img-border{border: 6px solid #ECF1FF; border-radius: 50%;}
+   .living-top-right .img-border .tag{width: 85px; height: 20px; line-height: 20px; text-align: center; background: #FF4C62; border-radius: 10px;}
+   /deep/.el-table th{background-color: #FAFAFA; color: #333333;}
+   
+   
+   
+  .self-service{width: 1360px; height: 636px; background: url(../../assets/imgs/living.png) no-repeat 82px top; background-size: 1241px 585px;}
+  .self-tag{height: 40px; width: 40px; margin-bottom: 8px;}
+  .self-con{width: 1180px; height: 500px; align-items: flex-start; background-color: #F4F4F4; margin-top: 60px; margin-left: 43px;}
+  .self-item{width: 235px; height: 99px; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; opacity: 0.6;}
+  .self-item:hover{background-color: #FF7612; color: #FFFFFF; opacity: 1; cursor: pointer;}
+  .self-active{background-color: $rdx-error-dark; border-radius: 50%; color: $rdx-light-color;}
+  .self-bottom{width: 235px;}
+	.putaway{width: 25px; height: 25px; background-color: $rdx-primary; border-radius: 10px;}
+	.putaway-line{width: 100px; height: 1px; background-color: #E6E7EB;}
+	.explani{width: 25px; height: 25px; background-color: $rdx-success-disabled; border-radius: 10px;}
+	.percent-all{width: 100%; height: 83px; background: #ff6334;}
+	  .percent-on{height: 83px; background: #FF3E34;}
+	  .percent-sales{height: 83px; background: #E60012;}
+	  .conversionA{background: #ff6334; height: 40px;}
+	  .conversionB{background: #ff3e34; height: 40px;}
+	  .conversionC{background: #e60012; height: 40px;}
+	  .conversion-all{position: relative; z-index: 10; height: 40px; overflow: hidden;}
+	  .conversion-item{width: calc(100% - 120px); height: 72px; border: 1px solid #E60012; top: 20px; right: 0px;}
+	  .conversion-item-B{width: calc(100% - 120px); height: 70px; border: 1px solid #E60012; top: 110px; right: 0px;}
+	  .ico-position{margin: -20px 0px 0px -4px;}
+	  .ico-position-B{margin: -4px 0px 0px -4px;}
+	.self-tag2{width: 130px; height: 24px;background: #FFF7E7;border-radius: 12px; padding: 0px 0px 0px 10px; line-height: 24px; color: #6B3613; font-size: 11px;}
+	.tag-comn-active{width: 86px; height: 32px; line-height: 32px; text-align: center; background: #FFFFFF; color: #DD001B; border: 1px solid #DD001B;}
+	.tag-comn{width: 86px; height: 32px; line-height: 32px; text-align: center; background: #FFFFFF; border: 1px solid #D9D9D9;}
+}

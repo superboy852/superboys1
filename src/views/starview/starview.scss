@@ -1,0 +1,18 @@
+.starview{
+  padding: 20px;
+  min-height:calc(100vh - 104px);
+  background: $rdx-bg-color;
+  border-radius: 10px;
+  .line{width: 100%; height: 4px; background-color: #DD001B; font-size: 20px; font-weight: bold; border-radius: 3px;}
+  .tips{width: 6px; height: 19px; background: #dd001b; border-radius: 3px;}
+  .starview-item{width: 250px; height: 140px; background: #ff997d; border-radius: 8px;}
+	
+  //线上公开课
+  .courses-item{width: 480px; height: 400px; box-shadow: 0 0 5px 5px #f8f8f8; border-radius: 30px;}
+	//资讯详情页
+	.news-left{width: calc(100% - 275px - 50px);}
+	.news-tips{background: #f4faff; padding: 22px 15px;}	
+	.button-news{width: 90px; height: 39px; line-height: 39px; border-radius: 4px;}
+	.news-right{width: 275px;}
+	.news-user{width: 260px; border: 1px solid #e5e5e5; padding: 20px;}
+}

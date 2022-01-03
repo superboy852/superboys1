@@ -1,0 +1,27 @@
+.renwe-show{
+  margin: 0px auto;
+  max-width: 1620px;
+  min-width: 1200px;
+  padding-bottom: 50px;
+  .renwe-title{font-size: 58px; font-family: HarmonyOS Sans SC; font-weight: bold; color: #FFFFFF;line-height: 60px; background: linear-gradient(0deg, #FFE2BB 0%, #EFBF88 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+  .renwe-title2{font-size: 28px;font-family: HarmonyOS Sans SC;font-weight: 400;color: #FF4C62;line-height: 60px;background: linear-gradient(0deg, #FFE2BB 0%, #EFBF88 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+  .renwe-item{width: 279px; min-width: 200px;}
+  .renweItem0{width: 279px; height: 420px; background: url('../../assets/imgs/pay_bg1.png') no-repeat left top; background-size: 100% 420px;}
+  .renweItem1{width: 279px; height: 420px; background: url('../../assets/imgs/pay_bg2.png') no-repeat left top; background-size: 100% 420px;}
+  .renweItem2{width: 279px; height: 420px; background: url('../../assets/imgs/pay_bg3.png') no-repeat left top; background-size: 100% 420px;}
+  .renweItem3{width: 279px; height: 420px; background: url('../../assets/imgs/pay_bg4.png') no-repeat left top; background-size: 100% 420px;}
+  .renweItem4{width: 279px; height: 420px; background: url('../../assets/imgs/pay_bg5.png') no-repeat left top; background-size: 100% 420px;}
+	.button-1{width: 167px;height: 46px;line-height: 46px; text-align: center; background: #FFFFFF;opacity: 0.5; border-radius: 23px;}
+	.button-2{width: 160px; height: 46px;line-height: 46px; text-align: center; background: #FFFFFF; border-radius: 23px; cursor: pointer;}
+	.button-2:hover{color:#FFFFFF; background-color: $rdx-primary;}
+	.title-1{border-bottom: 1px solid #D2D2D2; padding-top: 6px; margin-bottom: 10px;}
+	.con-title{color: #4B4B4B; font-size: 12px;}
+	//付费弹窗
+	/deep/.pay-up .el-dialog__body{padding:0px}
+	/deep/.pay-up .el-dialog{border-radius: 10px;}
+	/deep/.el-dialog__header {
+	  display: none;
+	  padding: 0px;
+	  padding-bottom: 0px;
+	}
+}

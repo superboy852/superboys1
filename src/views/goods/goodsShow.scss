@@ -1,0 +1,28 @@
+.goods-show{
+	margin: 0px auto;
+	max-width: 1620px;
+	min-width: 1420px;
+  .seo-input{width: 420px; height: 42px; line-height: 42px; background: rgba(201,18,19,0.00); border: 1px solid #dd001b;border-radius: 8px;
+  .seo-input-mian{width: 360px; height: 40px; line-height: 40px; background-color: #FFFFFF; border: 0px; margin-left: 6px; padding: 0px 10px;}
+  .seo-but{width: 66px;height: 42px;background: #dd001b;border: 1px solid #dd001b; border-radius: 0px 8px 8px 0px;} }
+  .copy{border: 2px solid $rdx-primary;}
+  .top-left{border-right: 1px solid #eeeeee; height: 210px;}
+  .class{background: #fff1f3;}
+  .line-through{text-decoration:line-through;}
+  .width-val{width: 80px;}
+  .order-box{
+	  .width-16{width: 16%; text-align: center;}
+	  .width-14{width: 14%; text-align: center;}
+  }
+  .active-tab{background-color: $rdx-primary-light; padding: 3px 15px; border-radius: 20px;  font-weight: bold; color: $rdx-primary;}
+  .copy-video{border: 1px solid $rdx-primary; padding: 3px 8px;}
+  .btn {width: 46px;height: 46px;margin: 0 auto;cursor: pointer;}
+  .infos {width: 30px;height: 62px;border-radius: 8px;}
+  .tips-goods{background-color: #fff7f8; width: 200px; line-height: 30px; text-align: center;}
+  /deep/.el-radio-button--small .el-radio-button__inner{padding: 15px 35px; font-size: $rdx-font-lg;}
+  /deep/.el-table th{background-color: #FAFAFA; color: #333333;padding:3px 0px}
+  .copy-video2{width: 43px;height: 27px; line-height: 25px; text-align: center; background: #FFFFFF;border: 1px solid #DD001B; border-radius: 2px; font-size: 13px; color: #DD001B;}
+  .copy-video2:hover{border: 1px solid $rdx-warning; color: $rdx-primary;}
+  .goods-copy-button{border: 1px solid $rdx-old; color: $rdx-old; font-size: 12px; line-height: 17px; padding: 0px 8px; cursor: pointer;}
+  .goods-copy-button:hover{border: 1px solid $rdx-primary; color: $rdx-primary;}
+}

@@ -1,0 +1,5 @@
+export const SET_USER = 'SET_USER'
+export const SET_USER_TOKEN = 'SET_USER_TOKEN'
+export const SET_COLLAPSED = 'SET_COLLAPSED'
+export const SET_USER_TOKENOK = 'SET_USER_TOKENOK'
+export const SET_LOCALURL = 'SET_LOCALURL'

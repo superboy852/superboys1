@@ -1,0 +1,125 @@
+.data-show{
+  padding: 20px;
+  min-height: 100%;
+  background: $rdx-bg-color;
+  .color-time{color: #F9CC3F;}
+  // .data-button{border: 1px solid #e6e7eb;}
+  // .data-button:hover{border: 1px solid $rdx-primary-light; background-color: $rdx-primary-light;}
+  .seo-input{width:100%; height: 42px; line-height: 42px; background: rgba(201,18,19,0.00); border: 1px solid $rdx-primary;border-radius: 8px;
+  .seo-input-mian{height: 40px; line-height: 40px; background-color: #FFFFFF; border: 0px; margin-left: 6px; padding: 0px 10px;}
+  .seo-but{width: 66px;height: 42px;background: $rdx-primary;border: 1px solid $rdx-primary; border-radius: 0px 8px 8px 0px;} }
+  .box-item{border: 1px solid #dcdfe6; padding: 10px;}
+  .select_title{color: $rdx-tips-color;}
+  /*视频*/
+  .active{font-weight: bold; color: $rdx-primary; font-size: 20px;}
+  .line-data{width: 60px;height: 4px; background: $rdx-primary; border-radius: 2px; bottom: 0px;}
+  .round-data{border: 6px solid $rdx-primary; border-radius: 20px; width: 20px; height: 20px;}
+  .item-box{box-shadow:  0px 0px 6px rgba(63,69,75,0.12); padding: 12px;}
+  /deep/.el-checkbox .el-checkbox__label{font-size: 14px;color: $rdx-tips-color;}
+  /deep/.el-checkbox__inner{width: 16px;height: 16px; border-radius: 3px; border: 1px solid #E6E7EB;}
+  /deep/ .el-checkbox__input.is-checked .el-checkbox__inner::after {border: 2px solid $rdx-primary;  box-sizing: content-box; content: ""; border-left: 0; border-top: 0; height: 12px; left: 4px; position: absolute; top: -2px; width: 5px; transform: rotate(45deg) scaleY(1);}//选中
+  /deep/.el-checkbox__input.is-checked .el-checkbox__inner {background-color: #FFFFFF;border-color: $rdx-primary;} //选中背景	 
+  /deep/.el-radio__inner{height: 20px; width: 20px;}
+  /deep/.el-radio__inner::after{width: 12px; height: 12px;}
+  /deep/.el-button--medium {padding: 15px 60px; font-size: 16px; border-radius: 4px;}
+  input:focus {outline:0px;}
+  .tag{width: 4px;height: 14px; background: #C91213;border-radius: 2px;}
+  .data-item-bg{background-color: #F0F0F0; width: 49%; height: 180px; min-width: 439px;}
+  .data-head{width: 47px; height: 47px; border: 2px solid #CD2728;}
+  .data-button{width: 127px; height: 40px; line-height: 40px; text-align: center; background: $rdx-pink; border-radius: 6px; cursor: pointer;}
+  .data-button:hover{background-color: $rdx-old;}
+  .data-button2{width: 127px; height: 40px; line-height: 40px; text-align: center; border: 1px solid $rdx-pink; border-radius: 6px; color: $rdx-pink;}
+  .data-button2:hover{background-color: $rdx-error-light;}
+}
+//数据大屏
+.data-large{
+	width: 100%;
+	height: 100%;
+	// max-width: 1920px;
+	// min-width: 1300px;
+	// overflow-x: auto;
+	overflow: hidden;
+	background-color: #313240;
+	padding: 25px;
+	.data-bg{background: #464753;}
+	.left{width: 1373px; padding-right: 40px;}
+	.left-user{width: 100%; height: 280px; background: url('../../assets/imgs/data_top.png') no-repeat left top; background-size: 100% 100%; padding: 25px;}
+	.super-but{width: 173px; height: 35px; background: linear-gradient(#48d9c4 0%, #24ceb5 100%);border-radius: 18px;}
+	// .super-but:hover{width: 120px; height: 46px; line-height: 46px; background: #FFC186;border-radius: 23px; cursor: pointer;}
+	.user-c{width: 460px; height: 100px; background: rgba(255,255,255,0.2); border-radius: 50px; padding: 15px 20px;}
+	.user-c .head-img{width: 70px; height: 70px; border-radius: 50%;}
+	.user-c .head-img:hover{border: 2px solid $rdx-primary;}
+	.user-c .head-border{border: 2px solid #FFFFFF;}
+	.user-c-not{width: 110px; height: 110px; background: rgba(255,255,255,0.2); border-radius: 50%;}
+	.user-c-not .head-img{width: 70px; height: 70px; border-radius: 50%;}
+	.user-c-not .head-img:hover{border: 2px solid $rdx-primary;}
+	.user-c-not .head-border{border: 2px solid #FFFFFF;}
+	.rdx-pointer:hover{color: $rdx-primary;}
+	.code-wx{width: 56px; height: 56px;}
+	.left-item{width: 40%; min-width: 400px; padding-right: 40px;} /*中 左 左*/
+	.left-watch{width: 100%; height: 189px; border-radius: 30px; padding: 20px;}
+	.watch-ico{width: 41px; height: 41px; background: #5CA4BC;}
+	.watch-ico2{width: 41px; height: 41px; background: #D74D60;}
+	.large-color{color: #A9ABB5;}
+	.left-UV{width: 100%; height: 105px; background: url(../../assets/imgs/left-UV.png) no-repeat center top; background-size: 100% 100%; padding: 15px 40px 10px 40px;}
+	.watch-a{width: 200px; height: 4px; background-color: rgba(255,255,255,0.42); border-radius: 2px; text-indent: -9999px; margin-top: 16px;}
+	.watch-am{height: 3px; background: #ffffff; width: 100px; border-radius: 2px; position: absolute; top: 0px; left: 0px; animation: watchAm 10s linear infinite}
+	@keyframes watchAm {
+	  0% {width:0px}
+	  100% {width:200px}
+	}
+	.left-view{width: 100%; height: 516px; background: #464753; border-radius: 30px; padding: 20px;}
+	.data-lineA{width: 28px; height: 6px; background: #6dedda; border-radius: 3px;}
+	.data-lineA:hover{width: 28px; height: 6px; background: #20ceb4; border-radius: 3px;}
+	.data-lineB{width: 28px; height: 6px; background: #ffbd76; border-radius: 3px;}
+	.data-lineB:hover{width: 28px; height: 6px; background: #de8322; border-radius: 3px;}
+	.man-line{width: 10%; height: 120px;}
+	.data-lineC{width: 5px; background: #6dedda; border-radius: 3px;}
+	// .watchId{position: absolute;}
+	.right{width: 479px;}
+	.goods{width:60%; height: 856px; border-radius: 30px; padding: 20px; overflow: hidden;}/*中 左 右*/
+	.goods-box{overflow: hidden; height: 550px;}
+	.seamless-warp {
+	    width:100%;
+	    height: 100%;
+	    overflow: hidden;
+	  }
+	.goods-tab{width: 160px; height: 38px; background: #5E5E5E; border-radius: 21px;}
+	.goods-active{width: 84px; height: 38px; background: #ff3f5a; border-radius: 19px;}
+	.goods-item{width: 100%;}
+	.goods-table{width: 100%; background: #3D3F4F; line-height: 33px;}
+	.right-c{width: 479px;}
+	.living-ok{width: 100%; padding: 20px 20px 20px 20px; border-radius: 30px;}
+	.video-button{width: 57px; height: 57px; background: #353c65; border-radius: 50%;}
+	.video-button:hover{background: $rdx-primary;}
+	.living-button{width: 194px; height: 57px; background: #353c65; border-radius: 29px}
+	.living-right{width: 50px; height: 50px; background: #353c65;border-radius: 10px;}
+	.living-right:hover{width: 50px; height: 50px; background: $rdx-error;border-radius: 10px;}
+	.audience{width: 28px; height: 6px; border-radius: 3px;}
+	.audienceA{background: #6dedda;}
+	.audienceB{background: #48d9c4;}
+	.audienceC{background: #2fb3a0;}
+	.audienceD{background: #148b7a;}
+	.barrage-more{height: 320px;}
+	.living-box{width: 120%; height: 200px; overflow-y: scroll;}
+	.number-tips{width: 36px; height: 36px; background: rgba(255,255,255,0.5)}
+	// .income-box{overflow: hidden; width: 440px;}
+	
+	.am-barrage{animation:openS 1s forwards}
+	@keyframes openS {
+	  0% {left: -500px;}
+	  100% {left: 0px;}
+	}
+	/deep/.el-dialog__body{padding: 0px 0px 20px 0px;}
+	/deep/.el-carousel__arrow{display: none;}
+	/deep/.el-carousel__indicators--horizontal{top: 0px; right: -10px; bottom: auto; left: auto;}
+	/deep/.el-carousel__button{display: block;opacity: 1; width: 7px; height: 7px;border-radius: 50%; background-color: #FFFFFF; border: none; outline: none; padding: 0; margin: 0; cursor: pointer; transition: .3s}
+	/deep/.is-active .el-carousel__button{background-color: #48d9c4;}
+	.video{
+		/deep/.el-dialog__wrapper{position: fixed; top: 0; right: 30px; bottom: 0;left: auto;overflow: auto; margin: 0;}
+	}
+	.video-2{width: 318px; height: 550px; position: fixed; bottom: 0px; right: 60px;  z-index: 99;
+	.video-img{position: absolute; z-index: 100; left: 0px; top: 0px;}}
+	.back-button{width: 195px; line-height: 43px; text-align: center; height: 43px; border: 1px solid rgba(255,255,255,0.6);border-radius: 22px;}
+	.back-button:hover{border: 1px solid #FFFFFF; color: #FFFFFF;}
+}
